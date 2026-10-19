@@ -1,0 +1,15 @@
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 临时文件
+*.tmp
+*.swp
+*~
+
+# 本地环境配置
+.env
+.env.*
+!.env.example
+!.env.sample
