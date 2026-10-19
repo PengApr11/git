@@ -13,3 +13,18 @@ Desktop.ini
 .env.*
 !.env.example
 !.env.sample
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node.js 依赖
+node_modules/
+
+# 本地 IDE 工作区数据
+.idea/workspace.xml
